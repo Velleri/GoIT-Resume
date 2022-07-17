@@ -1,0 +1,210 @@
+/* Загальна стилізація */
+* {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   background-color: #E5E5E5;
+}
+
+.main {
+   display: flex;
+   flex-direction: row-reverse;
+   width: 1200px;
+   margin: 0px auto;
+}
+
+.main-content {
+   background: #ffffff;
+   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+   padding: 105px 90px;
+}
+
+/* Стилізація блоку about */
+.about {}
+
+.about-position {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   margin-bottom: 20px;
+}
+
+.about-name {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 55px;
+   margin-bottom: 25px;
+}
+
+.about-description {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+   width: 420px;
+
+}
+
+/* Стилізація блоку projects */
+.projects {
+   margin-bottom: 50px;
+}
+
+h4 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   color: #000000;
+   margin: 0;
+}
+
+h6 {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+   color: #A8A8A8;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+h5 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   color: #000000;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.company {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   color: #FB6D3A;
+}
+
+ul {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+   margin: 0px 0px 20px -28px;
+}
+
+/* Стилізація блоку projects-title */
+.title {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 27px;
+   margin-bottom: 10px;
+}
+
+.projects-item {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 24px;
+}
+
+.p-l, .p-t {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+}
+
+.p-l {
+   margin-left: 10px;
+}
+
+.projects-list {
+   padding: 0;
+   margin-left: 18px;
+}
+
+/* Стилізація блоку work */
+.work {
+
+}
+
+/* Стилізація блоку education */
+.education {
+
+}
+
+.sidebar {
+   background: #1E2939;
+   padding-top: 40px;
+   width: 370px;
+}
+
+.sidebar-title {
+   color: #ffffff;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 27px;
+}
+
+.contacts, .tech-skills, .soft-skills {
+   margin-left: 40px;
+   color: #ffffff;
+   margin-bottom: 10px;
+}
+
+.contacts {
+   margin-bottom: 50px;
+}
+
+.tech-skills {
+   margin-bottom: 45px;
+}
+
+.contact-text {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 12px;
+   margin-right: 6px;
+}
+
+.contact-link {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 12px;
+   color: #FFFFFF;
+   opacity: 0.5;
+}
+
+.lists {
+   margin-left: -28px;
+   color: #FB6D3A;
+}
+
+.li-text {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 12px;
+   color: #FFFFFF;
+}
+
+.photo {
+   width: 370px;
+   margin-bottom: 50px;
+}
